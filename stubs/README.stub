@@ -1,0 +1,21 @@
+# Tailwind CSS Classes
+
+Tailwind CSS classes generated in stylesheets by component/utility separately.
+
+Build with [Tailwind CSS](https://tailwindcss.com/) {version}
+
+## Classes
+
+Stylesheets location: `public/css`
+
+{classes}
+
+## Configuration
+
+* [config/tailwind.php](config/tailwind.php)
+
+## Commands
+
+* Scrap classes from docs: `php artisan scrap`
+* Build classes: `php artisan stylesheets`
+* Update `README.md`: `php artisan readme`

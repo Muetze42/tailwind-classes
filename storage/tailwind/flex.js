@@ -1,0 +1,6 @@
+module.exports = [
+    'flex-1',
+    'flex-auto',
+    'flex-initial',
+    'flex-none',
+]

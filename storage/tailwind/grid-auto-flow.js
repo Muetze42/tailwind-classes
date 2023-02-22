@@ -1,0 +1,7 @@
+module.exports = [
+    'grid-flow-row',
+    'grid-flow-col',
+    'grid-flow-dense',
+    'grid-flow-row-dense',
+    'grid-flow-col-dense',
+]

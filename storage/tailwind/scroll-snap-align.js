@@ -1,0 +1,6 @@
+module.exports = [
+    'snap-start',
+    'snap-end',
+    'snap-center',
+    'snap-align-none',
+]

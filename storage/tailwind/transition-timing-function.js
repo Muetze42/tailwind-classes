@@ -1,0 +1,6 @@
+module.exports = [
+    'ease-linear',
+    'ease-in',
+    'ease-out',
+    'ease-in-out',
+]
