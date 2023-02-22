@@ -6,7 +6,7 @@ export default defineConfig({
         rollupOptions: {
             output: {
                 assetFileNames: (assetInfo) => {
-                    return 'z-index.css';
+                    return 'backdrop-brightness.css';
                 },
             },
         },
