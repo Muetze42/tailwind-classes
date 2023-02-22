@@ -52,7 +52,7 @@ class ScrapClasses extends Command
             $js.= "\n]";
 
             $file = storage_path('tailwind/'.basename($site).'.json');
-            file_put_contents($file, json_encode($classes, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE));
+            file_put_contents($file, jsonPrettyEncode($classes));
 
             $file = storage_path('tailwind/'.basename($site).'.js');
             file_put_contents($file, $js);

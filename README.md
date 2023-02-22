@@ -4,7 +4,7 @@ Tailwind CSS classes generated in stylesheets by component/utility separately.
 
 Build with [Tailwind CSS](https://tailwindcss.com/) 3.2.7
 
-## Classes
+## Stylesheets
 
 Stylesheets location: `public/css`
 
