@@ -30,15 +30,15 @@ class UpdateReadme extends Command
     public function handle(): void
     {
         $files = glob(public_path('css/*.css'));
-        $classes = [];
+        $stylesheets = [];
         foreach ($files as $file) {
             $file = pathinfo($file, PATHINFO_FILENAME);
-            $classes[] = '* ['.$file.'](public/css/'.$file.'.css)';
+            $stylesheets[] = '* ['.$file.'](public/css/'.$file.'.css)';
         }
 
         $replace = [
             '{version}' => Package::getPackageLockJsonValue('dependencies')['tailwindcss']['version'],
-            '{classes}' => implode("\n", $classes),
+            '{stylesheets}' => implode("\n", $stylesheets),
         ];
 
         $readme = str_replace(
